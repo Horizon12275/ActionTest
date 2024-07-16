@@ -57,3 +57,5 @@ jobs:
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
           key: ${{ secrets.PRIVATE_KEY}}
+          # 添加args参数，可以看到更多的报错信息
+          args: "-tt -vvv"
